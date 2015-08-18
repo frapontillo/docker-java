@@ -1,4 +1,8 @@
 # docker-java
+
+[![Docker Image][docker-image]][docker-url]
+[![Apache License][license-image]][license-url]
+
 Docker image for Oracle Java running on Ubuntu 14.04
 
 ## Docker Image
@@ -7,9 +11,15 @@ Docker image for Oracle Java running on Ubuntu 14.04
 $ docker run -it frapontillo/java:8 java -version
 ```
 
+or
+
+```
+$ docker run -it frapontillo/java:7 java -version
+```
+
 ## License
 
-[Oracle Java 8](https://www.java.com) is referenced in the Docker container but is subject to its own license.
+[Oracle Java](https://www.java.com) is referenced in the Docker container but is subject to its own license.
 
 ```
    Copyright 2015 Francesco Pontillo
@@ -26,3 +36,9 @@ $ docker run -it frapontillo/java:8 java -version
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
+
+[docker-url]: https://hub.docker.com/r/frapontillo/java
+[docker-image]: https://img.shields.io/docker/pulls/frapontillo/java.svg?style=flat
+
+[license-image]: http://img.shields.io/badge/license-Apache_2.0-blue.svg?style=flat
+[license-url]: LICENSE
